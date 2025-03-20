@@ -30,8 +30,7 @@ class TarefaController extends Controller
         $tarefa = Tarefa::find($id)->delete();
         return response()->json(null,204);
     }
-    
-
-    
+ 
+  
 
 }
